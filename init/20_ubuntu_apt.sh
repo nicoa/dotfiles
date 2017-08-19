@@ -45,8 +45,6 @@ apt_packages+=(
   sl   # trolling on spelling mistake for ls
   telnet
   tree   # recursive tree for folder
-  sublime-text
-  texlive-full
   texmaker
   r-base
 )

@@ -25,6 +25,7 @@ function add_ppa() {
 
 # Misc.
 apt_packages+=(
+  curl
   awscli
   build-essential
   cmatrix
@@ -44,6 +45,10 @@ apt_packages+=(
   sl   # trolling on spelling mistake for ls
   telnet
   tree   # recursive tree for folder
+  sublime-text
+  texlive-full
+  texmaker
+  r-base
 )
 
 apt_packages+=(vim)
@@ -190,7 +195,7 @@ function other_stuff() {
   # Install misc bins from zip file.
 #   install_from_zip ngrok 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
 #   install_from_zip terraform 'https://releases.hashicorp.com/terraform/0.9.2/terraform_0.9.2_linux_amd64.zip'
-# }
+}
 
 ####################
 # ACTUALLY DO THINGS

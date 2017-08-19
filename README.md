@@ -5,7 +5,7 @@ My OSX / Ubuntu dotfiles.
 I cloned that from legendary
 <https://github.com/cowboy/dotfiles>
 
-I'll sone clean up things here. Following is (mostly) not edited right now since the fork:
+I'll soon clean up things here. Following is (mostly) not edited right now since the fork:
 
 ## About this project
 

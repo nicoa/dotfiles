@@ -58,3 +58,7 @@ Desktop.ini
 .swo
 .*.swp
 .*.swo
+
+
+# Sensitive Data
+secret.*

@@ -160,25 +160,3 @@ Check it out:
 Copyright (c) 2014 "Cowboy" Ben Alman  
 Licensed under the MIT license.  
 <http://benalman.com/about/license/>
-
-
-
-
-# Aftermath
-```sh
-sudo apt-get install gdebi-core
-wget https://download2.rstudio.org/rstudio-server-1.0.153-amd64.deb
-sudo gdebi rstudio-server-1.0.153-amd64.deb
-```
-
-for R Studio.
-
-And after installing anaconda2 from <https://www.continuum.io/downloads>, execute:
-```sh
-conda update conda
-conda update anaconda
-conda create --name legacy python=2 pandas numpy scipy seaborn
-conda install jupyter
-conda install cython
-conda install MKL
-```

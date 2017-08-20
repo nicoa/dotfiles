@@ -137,6 +137,7 @@ if is_ubuntu_desktop; then
     # rofi
     network-manager-openconnect
     network-manager-openconnect-gnome
+    nload
     # openssh-server
     # shutter
     # transgui
